@@ -1,6 +1,6 @@
 SIMPLE:
 a = lua
-print(a) -- this would print "a" into console. (F9) or /console to check it
+print(a) -- this would print "lua" into console. (F9) or /console to check it
 
 
 ---
