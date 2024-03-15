@@ -1,1 +1,1 @@
-
+To print in Lua, use the print() function followed by the content you want to print inside parentheses. You can integrate it into your Lua code by placing print() statements wherever you want to display information or debug your script
