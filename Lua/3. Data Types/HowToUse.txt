@@ -1,0 +1,1 @@
+Understand Lua's basic data types such as numbers, strings, booleans, tables, and nil.
