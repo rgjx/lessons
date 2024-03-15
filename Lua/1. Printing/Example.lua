@@ -8,15 +8,18 @@ print(a) -- this would print "lua" into console. (F9) or /console to check it
 ---
 
 ADVANCED:
+
+no = dead
+yes = alive
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 
 local function check()
     if humanoid.Health <= 0 then
-        print("dead")
+        print(no)
     else
-        print("alive")
+        print(yes)
     end
 end
 
