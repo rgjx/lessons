@@ -1,6 +1,12 @@
 SIMPLE:
 a = lua
 print(a) -- this would print "a" into console. (F9) or /console to check it
+
+
+---
+---
+---
+
 ADVANCED:
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
